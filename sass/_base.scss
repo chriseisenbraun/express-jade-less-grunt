@@ -1,0 +1,21 @@
+*,
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+body {
+  font-family: $font-body;
+}
+
+
+// Repsonsive images
+img{
+  width: 100%;
+  height: auto;
+}
+
+//-Sectioning Elements-----------------
+
+
+
