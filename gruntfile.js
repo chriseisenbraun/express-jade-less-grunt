@@ -5,13 +5,6 @@ module.exports = function(grunt) {
         files: {
           'public/stylesheets/application.css': 'less/application.less'
         },
-        // options: {
-        //   sourceComments: "map",
-        //   includePaths: [
-        //     './bower_components/bower-bourbon',
-        //     './bower_components/bower-neat'
-        //   ]
-        // }
       }
     },
     watch: {

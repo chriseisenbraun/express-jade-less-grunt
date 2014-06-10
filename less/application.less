@@ -4,14 +4,20 @@
 // $visual-grid-opacity: 0.4;
 // $visual-grid-breakpoints: () !default;
 
-@import "bourbon";
-@import "neat";
+//@import "bourbon";
+//@import "neat";
 
-@import "reset";
-@import "variables";
+// @import "reset";
+// @import "variables";
 
-//@import "mixins";
-@import "base";
-//@import "modules";
-@import "layout";
+// @import "mixins";
+// @import "base";
+// @import "modules";
+// @import "layout";
 
+@nice-blue: #78CDFF;
+@light-blue: @nice-blue + #111;
+
+body {
+  color: @light-blue;
+}
