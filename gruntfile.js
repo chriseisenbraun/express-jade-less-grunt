@@ -7,6 +7,11 @@ module.exports = function(grunt) {
         },
       }
     },
+    dss: {
+      files: {
+        'public/stylesheets/application.css': 'less/application.less'
+      }
+    },
     watch: {
       source: {
         files: ['less/**/*.less', 'views/**/*.jade'],

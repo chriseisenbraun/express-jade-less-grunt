@@ -1,0 +1,26 @@
+/**
+  * @name Button
+  * @description Style for the button element
+  * @state .active - active state
+  * @state :disabled - disabled state
+  * @markup
+  *   <button>Markup</button>
+  */
+
+button{
+  background: #006dcc;
+  font-size: 18px;
+  color: #eee;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: -3px -21px 21px -9px rgba(0,0,0,0.4) inset;
+}
+button.active{
+  background: maroon;
+}
+
+button:disabled{
+  background: #aaa;
+  color: #777;
+}
