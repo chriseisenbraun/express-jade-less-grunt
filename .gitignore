@@ -2,9 +2,6 @@
 styleGuide/public/stylesheets/*.css
 styleGuide/public/stylesheets/application.css.map
 
-# Sass #
-.sass-cache
-
 # No node packages #
 node_modules/
 
